@@ -63,7 +63,7 @@ function App() {
                     />
                 </div>
                 <div className="one-half column">
-                    <h2>{ citas.length > 0 ? 'Administra tus citas' : 'No hay citas programadas' }</h2>
+                    <h2>{ citas.length > 0 ? 'Administra tus citas' : 'No hay citas' }</h2>
                     { citas.map(cita => (
                         <Cita
                             key={ cita.id }
